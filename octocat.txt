@@ -1,3 +1,0 @@
-in remote:
-add github
-end add
