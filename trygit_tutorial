@@ -68,6 +68,12 @@ Run
     >>> git config user.email "xx@xxx.com"
     >>> git config user.name "xxx"
 # in .git directory file config you can see some changes.
+# more detail on config, http://blog.jobbole.com/25775/
+ps: there are three config file, priority bottom to top
+    git config --system  --> /etc/gitconfig
+    git config --global  --> ~/.gitconfig
+    git config           --> .git/config
+view config info use: git config --list
 Advice
 Staging Area:
 A place where we can group files together before we "commit" them to Git.
